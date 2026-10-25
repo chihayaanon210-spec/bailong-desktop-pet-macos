@@ -1,0 +1,34 @@
+白龙桌宠 macOS 社区适配版 0.4.1-mac.3
+
+适配来源：jingh12312-rgb/bailong-desktop-pet v0.4.1 发布包。
+原项目：https://github.com/jingh12312-rgb/bailong-desktop-pet
+
+运行：将 BailongPet.app 放在个人 Applications 或其他固定文件夹，然后双击。
+支持 Apple Silicon，macOS 12 或更新系统；当前仅在本机 macOS 26 / arm64 验证。
+应用已经包含 Python、Qt 和全部 25 段原版动画，无需安装 Python。
+
+操作：单击随机互动；双击查询自己的 Codex 额度；左键拖动，松手播放落地动画。
+右键菜单可选择动画、打开对话、查看历史、隐藏、开关全屏自动隐藏以及退出。
+隐藏后从 macOS 菜单栏的桌宠图标打开菜单，选择“显示桌宠”。
+对话发送快捷键为 Command + Return，Return 换行。
+普通互动无需网络。额度与对话需要已安装并登录的 Codex 客户端；对话使用自己的额度。
+Mac 版能查找 Codex.app，以及本机 Bundle ID 为 com.openai.codex 的 ChatGPT.app。
+也可用环境变量 BAILONG_CODEX 明确指定本机 Codex 命令路径。
+
+配置、历史和运行状态位于：
+~/Library/Application Support/BailongPetMac/
+资源位于应用包内，运行时不修改已签名的应用。
+动画按需解码；像素缓存最多 128 MiB，同时最多保留 2 个解码器。
+全屏检测只读取窗口边界信息，不采集屏幕图像，不要求屏幕录制或辅助功能权限。
+
+随客户端自动启动属于可选功能，默认不设置登录监视器。
+在终端执行以下命令后，监视器在登录后运行，客户端从未运行变为运行时显示桌宠：
+"$HOME/Applications/BailongPet.app/Contents/MacOS/BailongPet" --enable-autostart
+关闭此功能：
+"$HOME/Applications/BailongPet.app/Contents/MacOS/BailongPet" --disable-autostart
+移动或删除应用前应先关闭此功能。仅关闭客户端窗口不等于完全退出客户端。
+
+这是独立社区实验适配版，使用本机 ad-hoc 签名，没有 Apple Developer 公证。
+发布者已确认取得本次改编源码及所附素材公开再分发授权。原始权利声明和上游来源见 NOTICE.md；本项目不据此为全部内容另加 MIT 等开放许可。
+原项目素材说明保留在 ASSETS.md，原有第三方许可保留在 licenses/。
+Mac 运行依赖使用独立动态库，构建配置与适配源码可另行查看。

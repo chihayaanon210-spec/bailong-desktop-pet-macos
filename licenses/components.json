@@ -1,0 +1,146 @@
+{
+  "generatedFor": "0.4.1-mac.3",
+  "python": "3.12.14",
+  "qt": "6.9.2",
+  "packages": [
+    {
+      "name": "CPython",
+      "version": "3.12.14",
+      "role": "runtime",
+      "license": "PSF-2.0 and included historical notices",
+      "source": "https://github.com/python/cpython/tree/v3.12.14",
+      "notices": [
+        "licenses/Python/LICENSE.txt"
+      ]
+    },
+    {
+      "name": "Pillow",
+      "version": "12.0.0",
+      "role": "runtime",
+      "license": "MIT-CMU and bundled dependency licenses",
+      "source": "https://github.com/python-pillow/Pillow/tree/12.0.0",
+      "notices": [
+        "licenses/Pillow/LICENSE"
+      ]
+    },
+    {
+      "name": "psutil",
+      "version": "7.0.0",
+      "role": "runtime",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/giampaolo/psutil/tree/release-7.0.0",
+      "notices": [
+        "licenses/psutil/LICENSE"
+      ]
+    },
+    {
+      "name": "pyinstaller",
+      "version": "6.22.3",
+      "role": "build tool and distributed bootloader",
+      "license": "GPL-2.0-or-later with PyInstaller bootloader exception",
+      "source": "https://github.com/pyinstaller/pyinstaller/tree/v6.22.3",
+      "notices": [
+        "licenses/PyInstaller/COPYING.txt"
+      ]
+    },
+    {
+      "name": "PySide6",
+      "version": "6.9.2",
+      "role": "runtime",
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "source": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/?h=v6.9.2",
+      "notices": [
+        "licenses/Qt/LGPL-3.0-only.txt",
+        "licenses/Qt/GPL-3.0-only.txt"
+      ]
+    },
+    {
+      "name": "PySide6_Essentials",
+      "version": "6.9.2",
+      "role": "runtime",
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "source": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/?h=v6.9.2",
+      "notices": [
+        "licenses/Qt/LGPL-3.0-only.txt",
+        "licenses/Qt/GPL-3.0-only.txt"
+      ]
+    },
+    {
+      "name": "PySide6_Addons",
+      "version": "6.9.2",
+      "role": "runtime",
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "source": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/?h=v6.9.2",
+      "notices": [
+        "licenses/Qt/LGPL-3.0-only.txt",
+        "licenses/Qt/GPL-3.0-only.txt"
+      ]
+    },
+    {
+      "name": "shiboken6",
+      "version": "6.9.2",
+      "role": "runtime",
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "source": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/?h=v6.9.2",
+      "notices": [
+        "licenses/Qt/LGPL-3.0-only.txt",
+        "licenses/Qt/GPL-3.0-only.txt"
+      ]
+    },
+    {
+      "name": "Qt",
+      "version": "6.9.2",
+      "role": "runtime frameworks and plugins",
+      "license": "Qt modules use their applicable LGPL/GPL/commercial licensing; bundled third-party code retains its own notices",
+      "source": "https://code.qt.io/cgit/qt/",
+      "notices": [
+        "licenses/Qt/LGPL-3.0-only.txt",
+        "licenses/Qt/GPL-3.0-only.txt"
+      ]
+    },
+    {
+      "name": "FFmpeg",
+      "version": "7.1.1",
+      "role": "Qt Multimedia optional backend libraries",
+      "license": "LGPL-2.1-or-later (reported by bundled avutil_license())",
+      "source": "https://github.com/FFmpeg/FFmpeg/tree/n7.1.1",
+      "notices": [
+        "licenses/FFmpeg/COPYING.LGPLv2.1"
+      ]
+    },
+    {
+      "name": "Kenney notice retained upstream",
+      "version": "as supplied upstream",
+      "role": "legacy notice; not attributed to the current synthesized WAV",
+      "license": "CC0-1.0",
+      "source": "upstream distribution licenses/Kenney-License.txt",
+      "notices": [
+        "licenses/Kenney/LICENSE.txt"
+      ]
+    }
+  ],
+  "notes": [
+    "This records the Mac build environment rather than the original Windows distribution.",
+    "Pillow LICENSE includes its bundled native dependency notices.",
+    "The original Windows notices and component inventory are preserved under upstream-notices; they are provenance, not the Mac dependency inventory."
+  ],
+  "sound": {
+    "file": "app/sounds/click.wav",
+    "sourceNote": "app/sounds/来源.txt",
+    "description": "Upstream source note describes an original program-synthesized sound with no external recording samples; no independent CC0 license is inferred for this WAV."
+  },
+  "pillowNativeVersions": {
+    "FreeType": "2.14.1",
+    "LittleCMS": "2.17",
+    "WebP": "1.6.0",
+    "AVIF": "1.3.0",
+    "libjpeg-turbo": "3.1.2",
+    "OpenJPEG": "2.5.4",
+    "libtiff": "4.7.1",
+    "zlib-ng": "2.2.5",
+    "zlib": "1.3.1.zlib-ng",
+    "XZ": "version not exposed by Pillow feature API",
+    "Xau": "version not exposed by Pillow feature API",
+    "XCB": "version not exposed by Pillow feature API"
+  }
+}

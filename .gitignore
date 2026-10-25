@@ -1,0 +1,62 @@
+# Python dependencies and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build products, archives, and machine-specific build records
+build/
+dist/
+release/
+.build*/
+.release-staging/
+*.app/
+*.dSYM/
+*.toc
+*.zip
+*.dmg
+*.pkg
+macos/*.iconset/
+
+# Downloaded artwork and predecoded caches
+outputs/
+app/cache/
+asset-entry-list.json
+asset-extraction-report.json
+asset-validation-report.json
+
+# Per-user data and local diagnostics
+*-state/
+test-state/
+selftest-state/
+BailongPetMac/
+conversations.json
+preferences.ini
+app/*状态.json
+*.jsonl
+*.log
+检查报告.json
+检查预览.png
+额度接口检查报告.json
+对话接口检查报告.json
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# macOS filesystem metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes

@@ -1,0 +1,22 @@
+{
+  "version": "0.4.1",
+  "architecture": "Windows x64",
+  "animationCount": 25,
+  "sourceSHA256": {
+    "pet.py": "68f65ff840dec938099258b4abe4a031a6e63bf021f541e268ad77d6725553d6",
+    "quota.py": "c70a0fe95905df17d1553da9e88d72c1b8cdcac490a33332131f70f219c521f0",
+    "autostart.py": "d7e71b9f69a67bd4eac120e97f26cc10c0e34b8548e59efd76c604827f04eed9",
+    "prepare_assets.py": "5741d1a9e09156a0139e59eb112d7500c809390fbf8b3ebf73c78dfb81b5ef9f",
+    "test_pet.py": "a2a174720f002994b287c8b84480ba6d56efef69fc03dd056f6cfbac694e278d",
+    "selftest.py": "dd4dbde4c21749606e63253eea914b84542edceba261c8bcd6a4c28e5b42af20",
+    "version.py": "b3a92594dc7e3353104b1977c298316e8557fa54afd35caf5b36709bbf192555",
+    "test_quota.py": "d22edcc2bcdd8759818e12fa6014b9300860e5d2d4cd89a3b4fc805a0bf44208",
+    "chat_backend.py": "1af8682278a82530ae2bbb88c668a1baded5fb8a4671aa30dfa31858ba097ba6",
+    "chat_ui.py": "3404d73ecd36fa33b6a31180a69e1c4336b52a0baba067b39294ea24234c640e",
+    "test_chat.py": "0a3181efaa4abc64810df5ebfdb8c09dd3728c3207dad1be8b23e54e861ab699",
+    "desktop_visibility.py": "f6ce6f1d7bed0eb694404bab9bd8c3006a55207321e9d31df9ff5aadfe3a9ea6",
+    "test_visibility.py": "1bc7e1375a4e0463f345f4675914f5dc300af7309b998c7618d6cddad3d323d0",
+    "test_session_reuse.py": "9c2b7e8a3f99cad14efc3748a0e97a5fda263d90c260e57a1cc181b6cab6c91e",
+    "test_task_notifications.py": "b7af72f0f7050b34881f79225610a0481d581c4e8919e0b263b0e82836185f10"
+  }
+}

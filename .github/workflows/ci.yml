@@ -1,0 +1,54 @@
+name: macOS offline checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: macos-checks-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test-and-build:
+    # The standard macos-15 image is Apple Silicon; do not use macos-15-intel.
+    runs-on: macos-15
+    timeout-minutes: 30
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+          architecture: arm64
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-build.txt
+      - name: Confirm Apple Silicon runner
+        shell: bash
+        run: test "$(uname -m)" = arm64
+      - name: Install build dependencies
+        shell: bash
+        run: |
+          python -m venv .venv
+          .venv/bin/python -m pip install -r requirements-build.txt
+      - name: Fetch original animation assets
+        shell: bash
+        run: .venv/bin/python scripts/fetch_assets.py
+      - name: Run offline unit and interface checks
+        shell: bash
+        run: bash scripts/test-macos.sh
+      - name: Build and check packaged application
+        shell: bash
+        run: |
+          bash scripts/build-macos.sh
+          bash scripts/package-macos.sh --include-source
+      # No account access, model task, artifact upload, or release publication.

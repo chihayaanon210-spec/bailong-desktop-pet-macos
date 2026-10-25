@@ -1,0 +1,73 @@
+{
+  "version": "0.4.1-mac.3",
+  "releaseChannel": "prerelease",
+  "architecture": "arm64",
+  "platform": "macOS",
+  "declaredMinimumMacOS": "12.0",
+  "testedMacOS": "26.6.2",
+  "runtime": {
+    "python": "3.12.14",
+    "qt": "6.9.2",
+    "PySide6": "6.9.2",
+    "Pillow": "12.0.0",
+    "psutil": "7.0.0"
+  },
+  "packager": {
+    "name": "PyInstaller",
+    "version": "6.22.3",
+    "mode": "onedir/windowed",
+    "signature": "ad-hoc",
+    "appleDeveloperNotarized": false
+  },
+  "upstream": {
+    "repository": "https://github.com/jingh12312-rgb/bailong-desktop-pet",
+    "version": "v0.4.1",
+    "sourceReleaseSHA256": "bc2ac2079c5b30ed624ea53345f7afa7c9b7fceb2dc68d361f90c9969786e9cb",
+    "originalAnimationCount": 25
+  },
+  "verification": {
+    "validatedFunctionalBaseVersion": "0.4.1-mac.2",
+    "automatedTestsPassed": 75,
+    "automatedTestsFailed": 0,
+    "frozenOfflineSelfTestPassed": true,
+    "userConfirmed": [
+      "visible on macOS desktop",
+      "dragging",
+      "right-click menu",
+      "read-only Codex quota display"
+    ],
+    "notVerifiedWithLiveUse": [
+      "real model chat task",
+      "actual fullscreen application behavior",
+      "login autostart"
+    ],
+    "validatedFrozenVersion": "0.4.1-mac.3",
+    "automatedTestsVersion": "0.4.1-mac.3"
+  },
+  "sourceSHA256": {
+    "app/animation_frames.py": "463ec505289591ead19ac524df047985771adac204d824f1f46faad30e81904f",
+    "app/autostart.py": "dfb1bea66d84058bdf0d516bc0fa1a974dfc7021e582c306ece8fcf327dc70ed",
+    "app/chat_backend.py": "ae6777f3720bc49a6a75d0097064dcb9b037a8c8fa7a0c537be286c766bb56ad",
+    "app/chat_ui.py": "585a3dced2ecb8c4d4fd31280e96f408f4218d6ff48ad187e36e1a1d1b39a625",
+    "app/desktop_visibility.py": "fe6fc16897791187f93078d19b462f2985ac1675b7cf521307d961dc003e0463",
+    "app/pet.py": "b6ad13021bd9120cd6fd55e4eda9c9668bd35347ff479d17c0ccf4aec14853f0",
+    "app/prepare_assets.py": "d0780f9ebd07634bc7f5842edb7e988b0f2a505f13e7d9c154d20ef1a197b726",
+    "app/quota.py": "f3aa1c2f4818c423df50dc74e09539308b99af3a4df818b7793e222004f14b34",
+    "app/runtime_paths.py": "44bd8b7a7edd7d0e51a507cc946fde27e2265c703e35577891a5a4e36ffc99ea",
+    "app/selftest.py": "6a830f0187d9c60e7f366cbee7057e84275e3ac55120ec4572d17aff135ef659",
+    "app/test_animation_frames.py": "9d5d3b8a062877127d5baa121ed631e5a63d0447804c12d5e92ff3dc409f5ebc",
+    "app/test_chat.py": "fcac4daf95be4b953dc55148c5025f22a8e45e7edecff328e3164178ba1450d0",
+    "app/test_macos_backend.py": "fceacd96d54185818c9e0a796e3dcf65d4531f4be3a1da080f4e0af7cd44b509",
+    "app/test_macos_chat_ui.py": "27af3d2123be59f5b8d698220a625b7fa86bcb47180071775f0fb2010328c04e",
+    "app/test_macos_platform.py": "5f0583d660b0747f702bbb683443c4411e6fd8ae381fd5d56abfdba99905972a",
+    "app/test_pet.py": "f0c447e40313832d925dcb2efc5c8b6ea52e70aec388af22bcd46847d68b0c66",
+    "app/test_quota.py": "d22edcc2bcdd8759818e12fa6014b9300860e5d2d4cd89a3b4fc805a0bf44208",
+    "app/test_session_reuse.py": "9c2b7e8a3f99cad14efc3748a0e97a5fda263d90c260e57a1cc181b6cab6c91e",
+    "app/test_task_notifications.py": "b7af72f0f7050b34881f79225610a0481d581c4e8919e0b263b0e82836185f10",
+    "app/test_visibility.py": "1bc7e1375a4e0463f345f4675914f5dc300af7309b998c7618d6cddad3d323d0",
+    "app/version.py": "ec6df5868cbe46cd9175a478bd4b66514af569d3be8c500e40a1f85e16b1e236"
+  },
+  "notice": "Source hashes describe this source tree. Runtime data and local absolute paths are not included.",
+  "bundleVersion": "3",
+  "bundleIdentifier": "local.bailongpet.macos"
+}

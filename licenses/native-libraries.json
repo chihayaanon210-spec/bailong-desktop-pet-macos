@@ -1,0 +1,295 @@
+{
+  "inventoryFromVersion": "0.4.1-mac.3",
+  "platform": "macOS",
+  "architecture": "arm64",
+  "frameworks": [
+    "QtConcurrent",
+    "QtCore",
+    "QtDBus",
+    "QtGui",
+    "QtMultimedia",
+    "QtMultimediaWidgets",
+    "QtNetwork",
+    "QtOpenGL",
+    "QtSvg",
+    "QtWidgets"
+  ],
+  "files": [
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libXau.6.dylib",
+      "bytes": 69760
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libavif.16.3.0.dylib",
+      "bytes": 2965872
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libjpeg.62.4.0.dylib",
+      "bytes": 649856
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/liblcms2.2.dylib",
+      "bytes": 521728
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/liblzma.5.dylib",
+      "bytes": 323328
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libopenjp2.2.5.4.dylib",
+      "bytes": 662656
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libsharpyuv.0.dylib",
+      "bytes": 85856
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libtiff.6.dylib",
+      "bytes": 766048
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libwebp.7.dylib",
+      "bytes": 512832
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libwebpdemux.2.dylib",
+      "bytes": 69616
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libwebpmux.3.dylib",
+      "bytes": 105856
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libxcb.1.1.0.dylib",
+      "bytes": 276160
+    },
+    {
+      "path": "Contents/Frameworks/PIL/__dot__dylibs/libz.1.3.1.zlib-ng.dylib",
+      "bytes": 176048
+    },
+    {
+      "path": "Contents/Frameworks/PIL/_avif.cpython-312-darwin.so",
+      "bytes": 73680
+    },
+    {
+      "path": "Contents/Frameworks/PIL/_imaging.cpython-312-darwin.so",
+      "bytes": 568976
+    },
+    {
+      "path": "Contents/Frameworks/PIL/_imagingcms.cpython-312-darwin.so",
+      "bytes": 98048
+    },
+    {
+      "path": "Contents/Frameworks/PIL/_imagingmath.cpython-312-darwin.so",
+      "bytes": 73680
+    },
+    {
+      "path": "Contents/Frameworks/PIL/_imagingtk.cpython-312-darwin.so",
+      "bytes": 70528
+    },
+    {
+      "path": "Contents/Frameworks/PIL/_webp.cpython-312-darwin.so",
+      "bytes": 75936
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtConcurrent.framework/Versions/A/QtConcurrent",
+      "bytes": 73984
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtCore.framework/Versions/A/QtCore",
+      "bytes": 5786768
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtDBus.framework/Versions/A/QtDBus",
+      "bytes": 681024
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtGui.framework/Versions/A/QtGui",
+      "bytes": 8195296
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtMultimedia.framework/Versions/A/QtMultimedia",
+      "bytes": 1131872
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtMultimediaWidgets.framework/Versions/A/QtMultimediaWidgets",
+      "bytes": 106832
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtNetwork.framework/Versions/A/QtNetwork",
+      "bytes": 1650912
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtOpenGL.framework/Versions/A/QtOpenGL",
+      "bytes": 621760
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtSvg.framework/Versions/A/QtSvg",
+      "bytes": 540496
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/QtWidgets.framework/Versions/A/QtWidgets",
+      "bytes": 6027136
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/libavcodec.61.dylib",
+      "bytes": 12642960
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/libavformat.61.dylib",
+      "bytes": 2424640
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/libavutil.59.dylib",
+      "bytes": 738160
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/libswresample.5.dylib",
+      "bytes": 121008
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/lib/libswscale.8.dylib",
+      "bytes": 746688
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/iconengines/libqsvgicon.dylib",
+      "bytes": 110240
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqgif.dylib",
+      "bytes": 90272
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqicns.dylib",
+      "bytes": 93264
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqico.dylib",
+      "bytes": 92224
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqjpeg.dylib",
+      "bytes": 508960
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqmacheif.dylib",
+      "bytes": 92768
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqmacjp2.dylib",
+      "bytes": 92768
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqsvg.dylib",
+      "bytes": 91984
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqtga.dylib",
+      "bytes": 89728
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqtiff.dylib",
+      "bytes": 474032
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqwbmp.dylib",
+      "bytes": 90288
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/imageformats/libqwebp.dylib",
+      "bytes": 512736
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/multimedia/libdarwinmediaplugin.dylib",
+      "bytes": 350736
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/multimedia/libffmpegmediaplugin.dylib",
+      "bytes": 594224
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/networkinformation/libqscnetworkreachability.dylib",
+      "bytes": 73616
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/platforms/libqcocoa.dylib",
+      "bytes": 949488
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/platforms/libqminimal.dylib",
+      "bytes": 102640
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/platforms/libqoffscreen.dylib",
+      "bytes": 154448
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/styles/libqmacstyle.dylib",
+      "bytes": 248064
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/tls/libqcertonlybackend.dylib",
+      "bytes": 128976
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/tls/libqopensslbackend.dylib",
+      "bytes": 306432
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/Qt/plugins/tls/libqsecuretransportbackend.dylib",
+      "bytes": 250432
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/QtCore.abi3.so",
+      "bytes": 5543056
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/QtDBus.abi3.so",
+      "bytes": 529552
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/QtGui.abi3.so",
+      "bytes": 6605296
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/QtMultimedia.abi3.so",
+      "bytes": 1045296
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/QtMultimediaWidgets.abi3.so",
+      "bytes": 298512
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/QtNetwork.abi3.so",
+      "bytes": 1817840
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/QtWidgets.abi3.so",
+      "bytes": 8889488
+    },
+    {
+      "path": "Contents/Frameworks/PySide6/libpyside6.abi3.6.9.dylib",
+      "bytes": 421168
+    },
+    {
+      "path": "Contents/Frameworks/libpython3.12.dylib",
+      "bytes": 17954960
+    },
+    {
+      "path": "Contents/Frameworks/psutil/_psutil_osx.abi3.so",
+      "bytes": 100640
+    },
+    {
+      "path": "Contents/Frameworks/psutil/_psutil_posix.abi3.so",
+      "bytes": 73152
+    },
+    {
+      "path": "Contents/Frameworks/shiboken6/Shiboken.abi3.so",
+      "bytes": 75680
+    },
+    {
+      "path": "Contents/Frameworks/shiboken6/libshiboken6.abi3.6.9.dylib",
+      "bytes": 515184
+    }
+  ]
+}

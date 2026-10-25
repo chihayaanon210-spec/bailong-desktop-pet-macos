@@ -1,0 +1,24 @@
+* text=auto
+*.py text eol=lf
+*.sh text eol=lf
+*.spec text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.icns binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.wav binary
+*.zip binary
+*.dmg binary
+# Keep upstream notices byte-identical to their recorded source digests.
+licenses/** -text
+upstream-notices/** -text
+app/sounds/** -text
+ASSETS.md -text
